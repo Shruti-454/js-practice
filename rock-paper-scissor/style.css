@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1e1e2f, #252547);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.score-board {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#user-label, #computer-label {
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
+
+.choices {
+    margin: 20px 0;
+}
+
+.choice {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.choice:hover {
+    background: #555;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
